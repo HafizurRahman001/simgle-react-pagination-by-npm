@@ -17,13 +17,13 @@ const Countries = () => {
     const totalCountries = countries.length;
     const pageNumber = Math.ceil(totalCountries / postPerPage)
 
-    const scrollPage = () => {
-        window.scrollTo(0, 0)
-    }
+    // const scrollPage = () => {
+    //     window.scrollTo(0, 0)
+    // }
 
     const paginate = (pageNumber) => {
         setCurrentPage(pageNumber)
-        scrollPage();
+        // scrollPage();
     }
 
     useEffect(() => {

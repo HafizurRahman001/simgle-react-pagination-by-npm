@@ -12,7 +12,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-responsive-pagination": "^2.2.3"
+    "react-responsive-pagination": "^2.2.3",
+    "react-scroll-to-top": "^3.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
